@@ -1,0 +1,39 @@
+# تجاهل المكتبات
+# Libraries & Environments
+venv/
+.venv/
+env/
+bin/
+lib/
+
+# Data & Models (Heavy Files)
+Data/
+datasets/
+Models/
+*.h5
+*.pth
+*.weights
+*.onnx
+*.pkl
+*.pb
+
+# Python Cache & Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment Secrets
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS specific files
+.DS_Store
+Thumbs.db
